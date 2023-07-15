@@ -19,11 +19,7 @@ onPlaybackStatusUpdate={status => setStatus(() => status)}
 }
 
 export default function Home() {
-  return (
-    <div>
-      <video
-        src={require("https://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4")}
-      />
-    </div>
-  );
+  return <div>
+    data
+     </div>;
 }
